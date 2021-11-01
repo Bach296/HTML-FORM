@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+         height: 250px;
+         width: 50%;
+         margin: auto;
+         border: lightseagreen solid;
+        }
+        .td1 {
+            color:orange
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="/action_page.php">
+        <h1 style="background-color:orange;color: white;text-align: center;font-size: 20px;">SỞ THÍCH CỦA BẠN</h1>
+        <p style="color: blue;padding-left: 40px;">Họ và tên <input type="text" style="width: 45%;" name="ten" value="22"></p>
+        <p style="color: blue;padding-left: 64px;">Email <input type="text" style="width: 35%;" name="email" value="33"></p> 
+            <table style="padding-left: 50px;">
+                <tr style="padding-left: 100px;">
+                    <td style="color: blue;">Sở thích</td>
+                    <td class="td1"><input type="checkbox"> Thể thao</td>
+                    <td class="td1"><input type="checkbox"> Âm nhạc</td>
+                    <td class="td1"><input type="checkbox"> Đọc sách</td>
+                </tr>
+                <tr style="padding-left: 100px;">
+                    <td style="color: blue;"></td>
+                    <td class="td1"><input type="checkbox"> Lướt web</td>
+                    <td class="td1"><input type="checkbox"> Chơi game</td>
+                    <td class="td1"><input type="checkbox"> Điện ảnh</td>
+                </tr>
+                <tr style="padding-left: 100px;">
+                    <td style="color: blue;"></td>
+                    <td class="td1"><input type="checkbox"> Du lịch</td>
+                </tr>
+            </table>
+        <pre style="padding-left: 64px;"><input  type = "button" name="btSubmit" value="Gửi thông tin"/>    <input  type = "reset" name="btSubmit" value="Nhập lại"/></pre>
+    </form>
+    </div>
+</body>
+</html>
